@@ -16,6 +16,7 @@
 // })
 
 
+
 /*Method: change the status by the one button*/
 let friendStatus = document.querySelector(".status");
 let addBtn = document.querySelector(".AddFriend");
