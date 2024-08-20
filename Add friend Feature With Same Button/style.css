@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.card img{
+    height: 60%;
+    width:80%;
+    object-fit: cover;
+    position: relative;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* .card h1{
+    margin-left: 25px;
+} */
+
+.card img{
+    padding: 10px 0;
+}
+
+.card p{
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: red;
+    /* margin-left: 50px; */
+}
+
+.card button{
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    /* border-radius: 50px; */
+    margin: 10px;
+    
+}
+
+.AddFriend{
+    background-color: cadetblue;
+}
+.RemoveBtn{
+    background-color: #bd0b0b;
+    color: black;
+}
